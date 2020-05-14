@@ -7,6 +7,15 @@
 .centratura {
   padding: 0 10%;
 }
+
+.button-orange{
+  display: inline-block;
+  background-color: #f7680f;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
 /* regole griglia */
 /* riga */
 .riga::after {
@@ -41,9 +50,6 @@
 .colonna50 {
   float: left;
   width: 50%;
-  /* debug */
-  border: solid blue 3px;
-  height: 100px;
 }
 
 .colonna70 {
@@ -56,23 +62,88 @@
 
 
 /* header */
-
+/* menu fisso */
 #fissa{
-  background-color: lightblue;
-  height: 100px;
+  background-color: #ebf7f7;
+  height: 80px;
+  border-bottom: solid 2px #14315c;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 90;
 }
 
+.select a {
+    padding: 0 7px;
+    color: #14315c;
+    text-decoration: none;
+}
+/* parte sinistra */
+.select {
+  display: inline-block;
+  padding: 0 7px;
+  color: #14315c;
+  padding-top: 25px;
+}
+#contact {
+  display: inline-block;
+  border-left: solid #14315c 1px;
+  text-decoration: none;
+  padding-left: 10px;
+  color: #14315c;
+}
+/* parte destra */
+.search {
+  text-align: right;
+  padding-top: 10px;
+}
+.search i {
+  color:#56c4cc;
+}
+#login {
+  display: inline-block;
+  text-decoration: none;
+  color:#f7680f;
+  border: solid #f76802 1px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0 7px;
+}
+
+/* menu in pagina */
 .menu {
-  height: 100px;
-  /* debug */
-  background-color: pink;
+  height: 80px;
+  padding-top: 25px;
+  margin-top: 80px;
+}
+/* logo */
+.logo {
+  height: 100%;
+}
+/* barra */
+
+.menu nav {
+  text-align: right;
 }
 
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: right;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color:#14315c;
+}
+
+/* jumbotron */
 #jumbo {
-  /* background-image: url(../img/jumbotron.png); */
-  height: 400px;
-  /* debug */
-  background-color: yellow;
+  background-image: url(../img/jumbotron.png);
+  background-size: 100% 100%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 
 /* main */
