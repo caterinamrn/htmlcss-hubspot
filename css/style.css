@@ -16,6 +16,11 @@
   border-radius: 5px;
   text-decoration: none;
 }
+
+.margini {
+  margin-bottom:20px;
+}
+
 /* regole griglia */
 /* riga */
 .riga::after {
@@ -140,24 +145,55 @@
 /* jumbotron */
 #jumbo {
   background-image: url(../img/jumbotron.png);
-  background-size: 100% 100%;
+  background-size: 100% 98%;
   background-position: bottom right;
   background-repeat: no-repeat;
   height: 500px;
+  position: relative;
 }
+.descrizione {
+  width: 50%;
+  color: #14315c;
+  position:absolute;
+  top: 10%;
+}
+
 
 /* main */
 
-main section {
-  /* debug */
-  background-color: red;
-  border: solid 2px;
+/* prima sezione */
+main section:first-child {
+  background-color: #f5fffb;
+  color: #14315c;
 }
+.contenitore-bianco{
+  background-color: white;
+}
+
+.rappresentative {
+  width: 120px;
+}
+
+/* introduzione */
+.introduzione  {
+  text-align: center;
+  padding: 30px;
+  padding-left: 20%;
+  width: 80%;
+}
+
+.introduzione img {
+  width: 200px;
+}
+
+/* prima riga */
+
 
 /* footer */
 
 footer {
-  background-color: blue;
+  background-color: #14315c;
+  color:white;
 }
 
 .info {
