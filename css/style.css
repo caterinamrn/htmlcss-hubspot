@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centratura {
+  padding: 0 10%;
+}
+/* regole griglia */
+/* riga */
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* colonne */
+
+.colonna25 {
+  float: left;
+  width: 25%;
+  /* debug */
+  border: solid blue 3px;
+  height: 100px;
+}
+
+.colonna30 {
+  float: left;
+  width: 30%;
+  /* debug */
+  border: solid blue 3px;
+  height: 100px;
+}
+.colonna33 {
+  float: left;
+  width: calc(100%/3);
+  /* debug */
+  border: solid blue 3px;
+  height: 100px;
+}
+.colonna50 {
+  float: left;
+  width: 50%;
+  /* debug */
+  border: solid blue 3px;
+  height: 100px;
+}
+
+.colonna70 {
+  float: left;
+  width: 70%;
+  /* debug */
+  border: solid blue 3px;
+  height: 100px;
+}
+
+
+/* header */
+
+#fissa{
+  background-color: lightblue;
+  height: 100px;
+}
+
+.menu {
+  height: 100px;
+  /* debug */
+  background-color: pink;
+}
+
+#jumbo {
+  /* background-image: url(../img/jumbotron.png); */
+  height: 400px;
+  /* debug */
+  background-color: yellow;
+}
+
+/* main */
+
+main section {
+  /* debug */
+  background-color: red;
+  border: solid 2px;
+}
+
+/* footer */
+
+footer {
+  background-color: blue;
+}
+
+.info {
+  /* debug */
+  background-color: green;
+  height: 100px;
+  border: solid 3px;
+}
+
+.lingue {
+  /* debug */
+  background-color: green;
+  height: 100px;
+  border: solid 3px;
+}
+
+.finale {
+  /* debug */
+  background-color: green;
+  height: 100px;
+  border: solid 3px;
+}
