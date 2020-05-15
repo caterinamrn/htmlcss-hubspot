@@ -17,6 +17,14 @@
   text-decoration: none;
 }
 
+.fa-check-circle {
+  color: #f7680f;
+  padding: 0 10px;
+}
+.fa-angle-down {
+  padding: 10px;
+}
+
 .margini {
   margin-bottom:20px;
 }
@@ -41,16 +49,11 @@
 .colonna30 {
   float: left;
   width: 30%;
-  /* debug */
-  border: solid blue 3px;
-  height: 100px;
+  text-align: center;
 }
 .colonna33 {
   float: left;
   width: calc(100%/3);
-  /* debug */
-  border: solid blue 3px;
-  height: 100px;
 }
 .colonna50 {
   float: left;
@@ -60,9 +63,6 @@
 .colonna70 {
   float: left;
   width: 70%;
-  /* debug */
-  border: solid blue 3px;
-  height: 100px;
 }
 
 
@@ -114,6 +114,14 @@
   padding: 15px;
   margin: 0 7px;
 }
+.FreeCRM ul {
+  margin-top: 20px;
+}
+
+.FreeCRM ul li {
+  display: inline-block;
+  text-decoration: none;
+}
 
 /* menu in pagina */
 .menu {
@@ -160,7 +168,10 @@
 
 
 /* main */
-
+main .button-orange{
+  display: block;
+  margin: 0 70px;
+}
 /* prima sezione */
 main section:first-child {
   background-color: #f5fffb;
@@ -168,26 +179,70 @@ main section:first-child {
 }
 .contenitore-bianco{
   background-color: white;
+  box-shadow:  2px  2px 1px #ededed,
+              -2px -2px 1px #ededed,
+               2px -2px 1px #ededed,
+              -2px  2px 1px #ededed;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .rappresentative {
   width: 120px;
+  padding: 10px;
 }
 
 /* introduzione */
 .introduzione  {
   text-align: center;
   padding: 30px;
-  padding-left: 20%;
-  width: 80%;
-}
 
+}
+.introduzione.CMR{
+  width: 80%;
+  padding-left: 20%;
+}
 .introduzione img {
   width: 200px;
 }
 
 /* prima riga */
 
+#riga{
+  display: inline-block;
+  float: right;
+  border: 1px solid grey;
+  height: 1px;
+  width: 70%;
+  margin-top: 8px;
+
+}
+/* seconda riga */
+
+/* DEVI SISTEMARE IL POSIZIONAMENTO DELLE TRE COLONNE */
+
+.colonna33 .contenitore-bianco {
+  margin: 30px 0;
+  width: 80%;
+}
+
+.presentazionehub {
+  text-align: center;
+}
+
+/* seconda sezione */
+main section:nth-child(2) {
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: white;
+}
+
+.popolar-feature ul{
+  list-style: none;
+}
+
+.popolar-feature .button-orange {
+  margin: 0 50px;
+}
 
 /* footer */
 
