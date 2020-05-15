@@ -41,9 +41,6 @@
 .colonna25 {
   float: left;
   width: 25%;
-  /* debug */
-  border: solid blue 3px;
-  height: 100px;
 }
 
 .colonna30 {
@@ -188,7 +185,7 @@ main section:first-child {
 }
 
 .rappresentative {
-  width: 120px;
+  height: 100px;
   padding: 10px;
 }
 
@@ -229,13 +226,6 @@ main section:first-child {
 .presentazionehub {
   text-align: center;
 }
-
-/* seconda sezione */
-main section:nth-child(2) {
-  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
-  color: white;
-}
-
 .popolar-feature ul{
   list-style: none;
 }
@@ -244,6 +234,35 @@ main section:nth-child(2) {
   margin: 0 50px;
 }
 
+/* seconda sezione */
+main section:nth-child(2) {
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: white;
+}
+.community {
+  text-align: center;
+  padding-bottom: 10%;
+}
+.community .colonna25{
+  border-right: solid white 1px;
+  padding: 5% 5%;
+}
+.community .riga .colonna25:last-child{
+  border-right: none;
+}
+
+.community .riga:first-child .colonna25 {
+  border-bottom:solid white 1px;
+}
+
+.community h2 {
+  font-size: 40px;
+}
+
+/* terza sezione */
+main section:last-child {
+  color:#14315c;
+}
 /* footer */
 
 footer {
