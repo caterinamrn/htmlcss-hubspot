@@ -263,6 +263,21 @@ main section:nth-child(2) {
 main section:last-child {
   color:#14315c;
 }
+/* prima riga */
+.custumers ul {
+
+}
+
+.custumers ul li{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  padding: 20%;
+}
+.custumers li img{
+  width: 100px;
+}
+
 /* footer */
 
 footer {
@@ -270,21 +285,21 @@ footer {
   color:white;
 }
 
-.info {
+#info {
   /* debug */
   background-color: green;
   height: 100px;
   border: solid 3px;
 }
 
-.lingue {
+#lingue {
   /* debug */
   background-color: green;
   height: 100px;
   border: solid 3px;
 }
 
-.finale {
+#finale {
   /* debug */
   background-color: green;
   height: 100px;
