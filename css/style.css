@@ -8,6 +8,10 @@
 .centratura {
   padding: 0 10%;
 }
+.margini {
+  margin-bottom:20px;
+}
+
 
 .button-orange{
   display: inline-block;
@@ -24,10 +28,6 @@
 }
 .fa-angle-down {
   padding: 10px;
-}
-
-.margini {
-  margin-bottom:20px;
 }
 
 /* regole griglia */
@@ -74,11 +74,8 @@
   width: 100%;
   z-index: 90;
 }
-
-.select a {
-    padding: 0 7px;
-    color: #33475b;
-    text-decoration: none;
+#fissa li{
+  display: inline-block;
 }
 /* parte sinistra */
 .select {
@@ -236,7 +233,8 @@ main section:first-child {
   margin: 30px auto;
 }
 .service{
-  margin:30px 0 30px 36px;
+  margin:30px 0;
+  float: right;
 }
 .presentazionehub {
   text-align: center;
@@ -285,6 +283,10 @@ main section:last-child {
 
 .custumers, .start{
 padding: 30px 0;
+}
+
+.custumers h2 {
+  font-size: 40px;
 }
 .custumers ul li{
   display: inline-block;
@@ -359,6 +361,7 @@ color: #cbd6e2;
 #copyright {
   color: white;
   display: block;
+  font-size: 15px;
 }
 #finale ul{
 text-align: right;
@@ -374,5 +377,5 @@ margin-right: 10px;
 /* hover */
 
 footer a:hover{
-  color: #7fd1de;
+  color: #7fd1de!important;
 }
