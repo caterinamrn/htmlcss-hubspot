@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: arial; */
+  font-family: arial;
 }
 
 .centratura {
@@ -47,7 +47,6 @@
 .colonna30 {
   float: left;
   width: 30%;
-  text-align: center;
 }
 .colonna33 {
   float: left;
@@ -127,6 +126,7 @@
   padding-top: 25px;
   margin-top: 80px;
 }
+
 /* logo */
 .logo {
   height: 100%;
@@ -166,6 +166,11 @@
 
 
 /* main */
+
+.FreeCRM div:first-child, .custumers div:first-child {
+  text-align: center;
+}
+
 main .button-orange{
   display: block;
   margin: 0 70px;
@@ -220,12 +225,23 @@ main section:first-child {
 /* DEVI SISTEMARE IL POSIZIONAMENTO DELLE TRE COLONNE */
 
 .colonna33 .contenitore-bianco {
-  margin: 30px 0;
-  width: 80%;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
+  width: 300px;
 }
-
+.marketing{
+  margin: 30px 0;
+}
+.Sales{
+  margin: 30px auto;
+}
+.service{
+  margin:30px 0 30px 36px;
+}
 .presentazionehub {
   text-align: center;
+  min-height: 254px;
+  margin-bottom: 20px;
 }
 .popolar-feature ul{
   list-style: none;
@@ -247,6 +263,7 @@ main section:nth-child(2) {
 .community .colonna25{
   border-right: solid white 1px;
   padding: 5% 5%;
+  height: 220px;
 }
 .community .riga .colonna25:last-child{
   border-right: none;
@@ -291,9 +308,6 @@ footer {
   background-color: #33475b;
 }
 
-footer a:hover{
-  color: #7fd1de;
-}
 
 /* into */
 #info {
@@ -356,4 +370,9 @@ display: inline-block;
 text-decoration: none;
 color: #cbd6e2;
 margin-right: 10px;
+}
+/* hover */
+
+footer a:hover{
+  color: #7fd1de;
 }
