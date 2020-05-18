@@ -1,3 +1,4 @@
+/* regole generali */
 *{
   margin: 0;
   padding: 0;
@@ -23,14 +24,12 @@
   color: white;
   border-radius: 5px;
   text-decoration: none;
+  text-align: center;
 }
 
 .fa-check-circle {
   color: #f7680f;
   padding: 0 10px;
-}
-.fa-angle-down {
-  padding: 10px;
 }
 
 /* regole griglia */
@@ -67,6 +66,11 @@
 
 
 /* header */
+
+.fa-angle-down {
+  padding: 10px;
+}
+
 /* menu fisso */
 #fissa{
   background-color: #ebf7f7;
@@ -82,13 +86,11 @@
 }
 /* parte sinistra */
 .select {
-  display: inline-block;
   padding: 0 7px;
   color: #33475b;
   padding-top: 25px;
 }
 #contact {
-  display: inline-block;
   border-left: solid #33475b 1px;
   text-decoration: none;
   padding-left: 10px;
@@ -103,21 +105,12 @@
   color:#56c4cc;
 }
 #login {
-  display: inline-block;
   text-decoration: none;
   color:#f7680f;
   border: solid #f76802 1px;
   border-radius: 5px;
   padding: 15px;
   margin: 0 7px;
-}
-.FreeCRM ul {
-  margin-top: 20px;
-}
-
-.FreeCRM ul li {
-  display: inline-block;
-  text-decoration: none;
 }
 
 /* menu in pagina */
@@ -127,12 +120,6 @@
   margin-top: 80px;
 }
 
-/* logo */
-.logo {
-  height: 100%;
-}
-/* barra */
-
 .menu nav {
   text-align: right;
 }
@@ -140,7 +127,6 @@
 .menu li {
   display: inline-block;
   margin: 0 7px;
-  text-align: right;
 }
 
 .menu ul li a {
@@ -190,6 +176,15 @@ main section:first-child {
   padding: 30px;
 }
 
+.FreeCRM ul {
+  margin-top: 20px;
+}
+
+.FreeCRM ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .rappresentative {
   height: 100px;
   padding: 10px;
@@ -201,9 +196,8 @@ main section:first-child {
   padding: 30px;
 
 }
-.introduzione.CMR{
-  width: 80%;
-  padding-left: 20%;
+.introduzione .CMR{
+  padding: 30px 20%;
 }
 .introduzione img {
   width: 200px;
@@ -211,7 +205,7 @@ main section:first-child {
 
 /* prima riga */
 
-#riga{
+#riga-orizzontale{
   display: inline-block;
   float: right;
   border: 1px solid grey;
@@ -222,11 +216,7 @@ main section:first-child {
 }
 /* seconda riga */
 
-/* DEVI SISTEMARE IL POSIZIONAMENTO DELLE TRE COLONNE */
-
 .colonna33 .contenitore-bianco {
-  /* margin-top: 30px;
-  margin-bottom: 30px; */
   width: 300px;
 }
 .marketing{
