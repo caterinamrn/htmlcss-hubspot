@@ -11,7 +11,10 @@
 .margini {
   margin-bottom:20px;
 }
-
+.small {
+  display: block;
+  font-size: 15px;
+}
 
 .button-orange{
   display: inline-block;
@@ -282,19 +285,26 @@ main section:last-child {
 /* prima riga */
 
 .custumers, .start{
-padding: 30px 0;
+padding: 40px 0;
 }
 
 .custumers h2 {
   font-size: 40px;
+  padding-top: 20px;
+}
+.customers ul {
+  max-width: 600px;
 }
 .custumers ul li{
   display: inline-block;
-  width: 150px;
   text-align: right;
+  vertical-align: middle;
+  width: 20%;
+  padding: 10px;
 }
 .custumers li img{
-  width: 100px;
+  width: 100%;
+  max-height: 100%;
 }
 .start .button-orange {
   margin: 0 72% 20px 0;
