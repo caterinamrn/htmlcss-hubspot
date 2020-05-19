@@ -31,6 +31,7 @@
   color: #f7680f;
   padding: 0 10px;
 }
+
 p {
   line-height: 1.6;
 }
@@ -67,11 +68,33 @@ p {
   width: 70%;
 }
 
+
 /* header */
 
 .fa-angle-down {
   padding: 10px;
 }
+
+/* BONUS */
+/* menu a tendina parte principale */
+.dropdown {
+  display: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 50;
+  list-style: none;
+  text-align: left;
+  background-color: white;
+  border: 1px #cbd6e2 solid;
+  color: #33475b;
+  padding: 20px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /* menu fisso */
 #fissa{
@@ -83,9 +106,10 @@ p {
   width: 100%;
   z-index: 90;
 }
-#fissa li{
+#fissa .colonna50 > ul > li {
   display: inline-block;
 }
+
 /* parte sinistra */
 .select {
   padding: 0 7px;
@@ -97,6 +121,10 @@ p {
   text-decoration: none;
   padding-left: 10px;
   color: #33475b;
+}
+.select .dropdown-content a {
+  color:#33475b;
+  text-decoration: none;
 }
 /* parte destra */
 .search {
@@ -126,7 +154,7 @@ p {
   text-align: right;
 }
 
-.menu li {
+.menu-principale > li {
   display: inline-block;
   margin: 0 7px;
 }
@@ -134,6 +162,14 @@ p {
 .menu ul li a {
   text-decoration: none;
   color:#33475b;
+}
+.menu  .dropdown-content li {
+  border-bottom: solid 1px #cbd6e2;
+}
+.menu  .dropdown-content img {
+  width: 50px;
+  float: left;
+  margin: 0 10px;
 }
 
 /* jumbotron */
@@ -235,7 +271,7 @@ main section:first-child {
 }
 .presentazionehub {
   text-align: center;
-  min-height: 271px;
+  min-height: 254px;
   margin-bottom: 20px;
 }
 .popolar-feature ul{

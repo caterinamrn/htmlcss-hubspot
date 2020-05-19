@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>hubspot</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bonus.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
 
@@ -20,9 +20,19 @@
 
           <div class="colonna50">
             <ul>
-              <li class="select"><i class="fas fa-globe-europe"></i>
-              English
-              <i class="fas fa-angle-down"></i></li>
+              <li class="select dropdown">
+                <i class="fas fa-globe-europe"></i>
+                English
+                <i class="fas fa-angle-down"></i>
+                <ul class="dropdown-content">
+                  <li class="margini" ><a href="#">English</a></li>
+                  <li class="margini" ><a href="#">Deutsch</a></li>
+                  <li class="margini" ><a href="#">日本語</a></li>
+                  <li class="margini" ><a href="#">Español</a></li>
+                  <li class="margini" ><a href="#">Português</a></li>
+                  <li><a href="#">Français</a></li>
+                </ul>
+            </li>
 
               <li>  <a id="contact" href="#">Contact Us</a></li>
             </ul>
@@ -59,8 +69,15 @@
 
           <div class="colonna70">
             <nav>
-              <ul>
-                <li><a href="#">Software <i class="fas fa-angle-down"></i></i></i></a>
+              <ul class="menu-principale">
+                <li class="dropdown"><a href="#">Software <i class="fas fa-angle-down"></i></i></i></a>
+                  <ul class="dropdown-content">
+                    <li>
+                      <img src="img/crm.webp" alt="icona">
+                      <h3><a href="#">Free HubSpot CRM</a></h3> 
+                      <p>All your contacts and companies, 100% free</p>
+                    </li>
+                  </ul>
                 </li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Resources <i class="fas fa-angle-down"></i></a></li>
@@ -80,7 +97,7 @@
       <div id="jumbo" class="centratura">
         <div class="descrizione">
 
-          <h1 class="margini">There's a better <br> way to grow.</h1>
+          <h1 class="margini">There's a better way to grow.</h1>
           <p class="margini">Marketing,sales and serive software that helpd your buisness grow without compromise.Because "good for the buisness" should also mean "good for the custumer"</p>
           <a class="button-orange margini" href="#">GetHubspotFree</a>
           <span class="margini small">Get started with FREE tools, and upgrade as you grow</span>
