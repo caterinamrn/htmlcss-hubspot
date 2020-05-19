@@ -165,7 +165,7 @@ p {
   color:#33475b;
 }
 .menu .dropdown-content {
-  width: 500px;
+  min-width: 500px;
 }
 .menu  .dropdown-content li {
   margin: 10px;
