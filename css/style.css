@@ -253,7 +253,7 @@ main section:nth-child(2) {
 }
 .community .colonna25{
   border-right: solid white 1px;
-  padding: 5% 5%;
+  padding: 5%;
   height: 220px;
 }
 .community .riga .colonna25:last-child{
@@ -282,9 +282,6 @@ padding: 40px 0;
   font-size: 40px;
   padding-top: 20px;
 }
-.customers ul {
-  max-width: 600px;
-}
 .custumers ul li{
   display: inline-block;
   text-align: right;
@@ -296,6 +293,9 @@ padding: 40px 0;
   width: 100%;
   max-height: 100%;
 }
+
+/* seconda riga */
+
 .start .button-orange {
   margin: 0 72% 20px 0;
 }
