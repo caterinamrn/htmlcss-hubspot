@@ -78,11 +78,12 @@ p {
 /* BONUS */
 /* menu a tendina parte principale */
 .dropdown {
-  display: relative;
+  position: relative;
 }
 .dropdown-content {
   display: none;
   position: absolute;
+  left: -10px;
   z-index: 50;
   list-style: none;
   text-align: left;
@@ -163,13 +164,19 @@ p {
   text-decoration: none;
   color:#33475b;
 }
+.menu .dropdown-content {
+  width: 500px;
+}
 .menu  .dropdown-content li {
+  margin: 10px;
+  padding: 10px;
   border-bottom: solid 1px #cbd6e2;
 }
 .menu  .dropdown-content img {
   width: 50px;
   float: left;
-  margin: 0 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 /* jumbotron */
